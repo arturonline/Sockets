@@ -1,0 +1,90 @@
+html{
+  background-color: #cccccc;
+}
+
+#mainContainer {
+  overflow: hidden;
+  background-color: #cccccc;
+  
+}
+
+#llistaMissatges {
+  height: 650px;
+  width: 800px;
+  margin: 2px;
+  border: 1px solid #cccccc;
+  float: left;
+  clear: left;
+  overflow-y: scroll;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+#llistaUsuaris {
+  height: 650px;
+  float: left;
+  width: 200px;
+  margin: 2px;
+  clear: right;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+#missatge {
+  width: 800px;
+  background: #ffffff;
+  float: left;
+  clear: left;
+}
+
+#send {
+  float: left;
+  width: 200px;
+  clear: right;
+}
+
+
+
+/* Missatges */
+
+
+/*.message::after {
+  border-width: 0px 10px 10px 0;
+  top: 0;
+  left: -10px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent transparent #e1ffc7;
+}*/
+
+.message:first-child {
+  margin: 16px 0 8px;
+}
+
+.message {
+  color: #000;
+  border-color: transparent transparent transparent #e1ffc7;
+  background-color: rgb(225, 255, 199);
+  clear: both;
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px;
+  position: relative;
+  margin: 8px 0;
+  max-width: 85%;
+  word-wrap: break-word;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  box-sizing: content-box;
+}
+
+#llistaMissatges {
+  background-color: #ddeeee;
+}
